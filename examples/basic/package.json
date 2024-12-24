@@ -1,0 +1,12 @@
+{
+    "name": "basic-electron-example",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "electron build",
+        "dev": "electron dev",
+        "preview": "electron preview"
+    },
+    "dependencies": {
+        "electron": "latest"
+    }
+}
