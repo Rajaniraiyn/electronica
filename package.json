@@ -1,5 +1,5 @@
 {
-  "name": "electron",
+  "name": "electronica",
   "private": true,
   "scripts": {
     "build": "turbo build",

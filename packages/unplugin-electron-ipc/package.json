@@ -1,0 +1,25 @@
+{
+    "name": "unplugin-electron-ipc",
+    "version": "0.0.1",
+    "type": "module",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        }
+    },
+    "scripts": {
+        "build": "tsup"
+    },
+    "dependencies": {
+        "magic-string": "^0.30.17",
+        "typescript": "^5.7.2",
+        "unplugin": "^2.1.0"
+    },
+    "devDependencies": {
+        "tsup": "^8.3.5"
+    },
+    "peerDependencies": {}
+}
